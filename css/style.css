@@ -1,12 +1,57 @@
 
 #logo{
     display:block;
-    width:60%;
-    margin:auto;
+    width:370px;
+    margin:20px auto;
 }
-
 #searchbar{
     display:block;
-    width:500px;
+    width:85%;
+    height:100%;
     margin:auto;
+    border:transparent;
+    background:transparent;
+    }
+#searchbar:focus{
+    outline:none;
+}
+#search{
+    position:relative;
+    height:40px;
+    width:90%;
+    border-style:solid;
+    border-radius:25px;
+    border-color:rgba(20,20,20,0.2);
+    border-width:1px;
+    margin:auto;
+    }
+#search:hover{
+    box-shadow:2px 2px 6px rgba(20,20,20,0.2);
+}
+#glass{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    left:15px;
+    object-fit:cover;
+}
+nav{
+    display:flex;
+    flex-direction:row;
+    justify-content: end;
+    align-items: baseline;
+}
+a.nostyle{
+    text-decoration:inherit;
+    color:inherit;
+    padding:0 10px;
+    font-size:14px;
+}
+#signin{
+    background:blue;
+    color:white;
+    padding:5px 20px;
+    border-radius:5px;
+    border-color:transparent;
+    margin-left:15px;
 }
