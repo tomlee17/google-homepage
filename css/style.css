@@ -75,3 +75,23 @@ a.nostyle:hover{
     background:rgba(50,50,50,0.1);
     border-radius:50%;
      }
+.searchbutton{
+    padding:8px 12px;
+    margin:10px 5px;
+    background-color: rgba(200,200,200,0.2);
+    border-color: transparent;  
+    border-radius: 5px;  
+    }
+.searchbutton:hover{
+    border-color: rgba(136, 120, 120, 0.1);
+}
+form{
+    text-align: center;
+}
+#trans{
+    font-size: 13px;
+    text-align: center;
+}
+#trans a{
+    text-decoration: none;
+}
