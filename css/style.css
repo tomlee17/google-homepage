@@ -40,6 +40,7 @@ nav{
     flex-direction:row;
     justify-content: end;
     align-items: center;
+    padding:10px;
     }
 a.nostyle{
     text-decoration:inherit;
@@ -58,22 +59,23 @@ a.nostyle:hover{
     border-color:transparent;
     margin-left:15px;
 }
+#signin:hover{
+background-color: rgb(104, 107, 235);
+cursor: pointer;
+}
 #appsdiv{
     position:relative;
     width:40px;
     height:40px;
     margin-left: 10px;
-    }
-#apps{
-    position:absolute;
-    width:100%;
+    background-color:transparent;
     text-align: center;
-    top: 50%;
-    transform: translateY(-50%);
+    border: transparent;
    }
 #appsdiv:hover{
     background:rgba(50,50,50,0.1);
     border-radius:50%;
+    cursor: pointer;
      }
 .searchbutton{
     padding:8px 12px;
@@ -94,4 +96,41 @@ form{
 }
 #trans a{
     text-decoration: none;
+}
+#trans a:hover{
+    text-decoration: underline;
+}
+html{
+    height: 100%;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    min-height:100%;
+    padding:0;
+    margin:0;
+}
+main{
+    flex:1;
+}
+footer{
+    background-color: rgb(238, 229, 229);
+}
+#country{
+    border-bottom-style: solid;
+    border-color: rgb(199, 197, 197);
+    border-width: 1px;
+    padding: 15px 30px;
+}
+#footerlink{
+    text-align: center;
+}
+#footerlink a{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    padding:15px 10px;
+    }
+#footerlink a:hover{
+text-decoration: underline;
 }
