@@ -115,6 +115,7 @@ main{
 }
 footer{
     background-color: rgb(238, 229, 229);
+    font-size: 13px;
 }
 #country{
     border-bottom-style: solid;
@@ -123,14 +124,22 @@ footer{
     padding: 15px 30px;
 }
 #footerlink{
-    text-align: center;
+    display:flex;
+    justify-content: space-between;
+    font-size: 12px;
 }
 #footerlink a{
     display: inline-block;
     text-decoration: none;
     color: inherit;
     padding:15px 10px;
-    }
+}
 #footerlink a:hover{
 text-decoration: underline;
+}
+#foot1{
+    margin: 0 15px;
+}
+#foot2{
+    margin: 0 15px;
 }
